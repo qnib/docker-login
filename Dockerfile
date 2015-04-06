@@ -7,3 +7,4 @@ RUN yum install -y which zeromq && \
 # logstash config
 ADD etc/default/logstash/ /etc/default/logstash/
 ADD etc/grok/patterns/ /etc/grok/patterns/
+ADD etc/consul.d/check_logstash.json /etc/consul.d/

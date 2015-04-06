@@ -13,7 +13,7 @@
     {
         "id": "logstash",
         "name": "logstash",
-        "tags": [""],
+        "tags": ["zmq"],
         "checks": [{
             "script": "supervisorctl status logstash | grep RUNNING",
             "interval": "10s"
